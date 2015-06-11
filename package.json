@@ -1,0 +1,22 @@
+{
+  "name": "scalajs-react-template-webpack",
+  "version": "0.1.0",
+  "description": "Sample project that uses scalajs-react and scalacss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chandu0101/scalajs-react-template-webpack.git"
+  },
+  "scripts": {
+    "start": "webpack --watch & webpack-dev-server --hot --progress --colors --port 8090",
+    "build": "webpack --progress --colors"
+  },
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
