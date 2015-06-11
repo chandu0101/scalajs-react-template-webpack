@@ -18,7 +18,7 @@ object HomePage {
   }
 
   val component = ReactComponentB.static("HomePage",
-    <.div(Style.content, "ScalaJS-React Template ith Webpack ")
+    <.div(Style.content, "ScalaJS-React Template with Webpack ")
   ).buildU
 
   def apply() = component()

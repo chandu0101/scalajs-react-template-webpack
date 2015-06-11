@@ -23,15 +23,15 @@ ghPagesPath="/Users/chandrasekharkode/Desktop/Kode/Programming/scalaprojects/cha
 
 projectPath=${ghPagesPath}/${projectName}
 
-mkdir -p ${projectPath}/js
+mkdir -p ${projectPath}/build
 
 cp index.html ${projectPath}
 
-cp  build/${projectName}-opt.js ${projectPath}/js/
+cp  build/${projectName}-opt.js ${projectPath}/build/
 
-cp  build/bundle.min.js ${projectPath}/js/bundle.js
+cp  build/bundle.min.js ${projectPath}/build/bundle.js
 
-cp  build/${projectName}-launcher.js ${projectPath}/js/
+cp  build/${projectName}-launcher.js ${projectPath}/build/
 
 cd ${ghPagesPath}
 
